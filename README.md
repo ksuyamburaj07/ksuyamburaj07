@@ -9,7 +9,7 @@ I build research and data applications, with a focus on measurable results, reli
 <a href="https://neuroprompt-3d.vercel.app/"><img src="assets/buttons/try-neuroprompt.svg" alt="Try NeuroPrompt-3D" height="38"></a>
 <a href="https://www.linkedin.com/in/suyambu-raj-kanagaraj/"><img src="assets/buttons/linkedin.svg" alt="Connect on LinkedIn" height="38"></a>
 
-[Explore projects](#explore-my-work) · [Engineering](#engineering-in-the-repositories) · [Connect](#connect)
+[Explore projects](#explore-my-work) · [Engineering](#engineering-in-the-repositories) · [Certificates](#hackathon-participation) · [Connect](#connect)
 
 </div>
 
@@ -30,6 +30,7 @@ Choose a project, try its app, or expand the technical details below.
 | **[New Delhi Traffic](#new-delhi-traffic-forecasting)** | Next-hour forecasting, temporal evaluation | [Historical demo ↗](https://new-delhi-traffic-forecasting.streamlit.app/) |
 | **[Volve Field Intelligence](#volve-field-intelligence)** | Industrial analytics, model reliability | [Explore dashboard ↗](https://volve-field-intelligence.streamlit.app/) |
 | **[RecallDesk](#recalldesk)** | Team engineering, evidence review, SQLite | [Team demo ↗](https://recall-desk.streamlit.app/) |
+| **[Lab2Care](#lab2care)** | Bounded agents, SQLite, simulated review workflows | [Team source ↗](https://github.com/husnainakram09/Lab2Care) |
 
 *Streamlit demos may sleep after inactivity and require a wake-up.*
 
@@ -130,6 +131,32 @@ This was a team delivery. The repository and application include collaborators' 
 
 </details>
 
+### Lab2Care
+
+**Team Redline Agents · Vultr: Agent Rush Hackathon · November 2026**
+
+Built the initial **Python/FastAPI** application foundation for a fictional laboratory-results follow-up workflow. My work included report-to-order reconciliation, version-aware **SQLite** persistence and audit history, bounded agent tools using **Vultr Serverless Inference**, research data adapters, and regression tests.
+
+Also contributed deployment-script improvements and **Vultr VM integration/testing**. Later integration and presentation were collaborative team work.
+
+**Scope:** Educational team prototype using fictional cases and simulated staff/clinician roles. The agent investigates unresolved evidence and prepares staff drafts; approval, fictional delivery, and acknowledgement remain separate auditable steps.
+
+<a href="https://github.com/husnainakram09/Lab2Care"><img src="assets/buttons/team-source.svg" alt="View Lab2Care team repository" height="32"></a>
+
+<details>
+<summary><strong>Inspect my implementation & safeguards</strong></summary>
+
+- Deterministic reconciliation preserves missing, mismatched, and conflicting report evidence for review.
+- Transactional, version-aware SQLite transitions reject stale changes and protect audit history.
+- Case-scoped agent tools inspect evidence and prepare unexecuted clarification/escalation drafts; they cannot approve clinical decisions or automatically attach reports.
+- Simulated clinician approval, notification queuing, fake delivery, and receipt acknowledgement are distinct workflow stages.
+- Research adapters and regression tests cover reconciliation, persistence, agent boundaries, approvals, and follow-up states.
+- Deployment contributions include reproducible startup, active-database health checks, startup-script fixes, and hands-on VM integration checks for the hackathon demo.
+
+[My initial implementation](https://github.com/husnainakram09/Lab2Care/commit/aaec480eda4cc16f53c30667384533ad7c5f2527) · [My startup contribution](https://github.com/husnainakram09/Lab2Care/commit/af0abf082f00622ca1dbae01780139c3924fd219) · [Current team tests](https://github.com/husnainakram09/Lab2Care/tree/0162cfcfc856935d5ceacec36d27e7acb2ed2467/tests)
+
+</details>
+
 ## Engineering in the repositories
 
 | Area | Demonstrated work |
@@ -137,16 +164,28 @@ This was a team delivery. The repository and application include collaborators' 
 | Modeling | Python, PyTorch, scikit-learn pipelines, Random Forest, Ridge, 3D segmentation |
 | Evaluation | Subject-level separation, temporal validation, persistence baselines, frozen predictions, explicit failure analysis |
 | Applications | FastAPI, React, TypeScript, Three.js, Streamlit, Plotly |
-| Data & testing | pandas, NumPy, SQLite, pytest regressions, MRI input validation, audit-integrity and stale-revision safeguards |
+| Data & testing | pandas, NumPy, SQLite, pytest/unittest regressions, MRI input validation, audit-integrity and stale-revision safeguards |
+| Agentic workflows | Vultr Serverless Inference, allowlisted tool calling, version-aware state transitions, simulated approval gates |
 
 <details>
 <summary><strong>Inspect engineering validation</strong></summary>
 
 [NeuroPrompt MRI input-validation tests](https://github.com/ksuyamburaj07/NeuroPrompt-3D/blob/public-release/tests/m11/test_case_validation_api.py) cover research input checks. [RecallDesk regression tests](https://github.com/husnainakram09/recall-desk/tree/main/tests) cover matching, persistence, audit, review, and export behavior.
 
+[Lab2Care workflow tests](https://github.com/husnainakram09/Lab2Care/tree/0162cfcfc856935d5ceacec36d27e7acb2ed2467/tests) cover reconciliation, case versions, agent boundaries, simulated approval, delivery, and acknowledgement.
+
 The forecasting projects include notebook assertions and saved-artifact checks. Test source and recorded validations are linked as evidence; they do not imply a current CI pass or independent fresh-machine reproduction.
 
 </details>
+
+## Hackathon participation
+
+Official **Certificates of Completion — Participant**, linked to my team projects.
+
+| Hackathon / project | Certificate issued | Verification |
+| :--- | :--- | :--- |
+| **Vultr: Agent Rush Hackathon** · [Lab2Care](#lab2care) | 9 November 2026 | [View certificate](https://lablab.build/u/@ksuyambu_raj07/ai-hackathons/vultr-hackathon/certificate) |
+| **AMD Developer Hackathon: ACT III** · [RecallDesk](#recalldesk) | 5 November 2026 | [View certificate](https://lablab.build/u/@ksuyambu_raj07/ai-hackathons/amd-developer-hackathon-act-iii/certificate) |
 
 ## Connect
 
