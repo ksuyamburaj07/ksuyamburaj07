@@ -1,52 +1,68 @@
+<a name="top"></a>
+
 <div align="center">
 
-# Suyambu Raj Kanagaraj
+# Hi, I'm Suyambu 👋
 
 **AI engineering · Computer vision · Applied machine learning**
 
-I build research and data applications, with a focus on measurable results, reliable workflows, and clear limitations.
+Research questions, working applications, and the lessons between them.
 
-<a href="https://neuroprompt-3d.vercel.app/"><img src="assets/buttons/try-neuroprompt.svg" alt="Try NeuroPrompt-3D" height="38"></a>
-<a href="https://www.linkedin.com/in/suyambu-raj-kanagaraj/"><img src="assets/buttons/linkedin.svg" alt="Connect on LinkedIn" height="38"></a>
+<a href="mailto:ksuyamburaj07@gmail.com"><img src="assets/contact/email.svg" alt="Email Suyambu at ksuyamburaj07@gmail.com" height="36"></a>
+<a href="https://www.linkedin.com/in/suyambu-raj-kanagaraj/"><img src="assets/contact/linkedin.svg" alt="Connect with Suyambu on LinkedIn" height="36"></a>
+<a href="https://github.com/ksuyamburaj07?tab=repositories"><img src="assets/contact/github.svg" alt="Browse Suyambu's GitHub repositories" height="36"></a>
 
-[Explore projects](#explore-my-work) · [Engineering](#engineering-in-the-repositories) · [Certificates](#hackathon-participation) · [Connect](#connect)
+[About me](#about-me) · [Projects](#explore-my-work) · [Toolkit](#toolkit) · [Certificates](#hackathon-participation) · [Say hello](#connect)
 
 </div>
 
 <a href="#explore-my-work">
 <picture>
-  <source media="(prefers-reduced-motion: no-preference)" srcset="assets/profile-flow.gif">
-  <img src="assets/profile-banner.png" alt="From experiment to application: data, models, evidence, applications." width="1500">
+  <source media="(prefers-reduced-motion: no-preference)" srcset="assets/identity/banner.gif">
+  <img src="assets/identity/banner.png" alt="Suyambu Raj — computer vision, applied ML and AI software. Independent research and team projects." width="1600">
 </picture>
 </a>
 
-## Explore my work
+<a name="about-me"></a>
 
-Choose a project, try its app, or expand the technical details below.
+## A little about me
 
-| Project | Focus | Explore |
+I'm **Suyambu Raj Kanagaraj**. My work has grown from a Computer Science final-year forecasting project into **3D brain MRI research** and collaborative **AI hackathons**.
+
+I like turning a question into something people can explore: a model, a working interface, and an evaluation that explains what happened. Baselines, failed ideas, and limitations are part of that story.
+
+- **Independent research:** I implemented and evaluated NeuroPrompt-3D, with the original concept credited in its provenance.
+- **Team engineering:** With **Team Redline Agents**, I contribute backend workflows, persistence, safeguards, and testing to RecallDesk and Lab2Care.
+- **My direction:** computer vision, applied ML, and AI applications with clear evidence and human oversight.
+
+<a name="explore-my-work"></a>
+
+## Featured projects
+
+Start with a demo, or open the notes to inspect the engineering.
+
+| Build | What you'll find | Try it / inspect it |
 | :--- | :--- | :--- |
-| **[NeuroPrompt-3D](#neuroprompt-3d)** | 3D MRI, uncertainty, research visualization | [Research app ↗](https://neuroprompt-3d.vercel.app/) |
-| **[New Delhi Traffic](#new-delhi-traffic-forecasting)** | Next-hour forecasting, temporal evaluation | [Historical demo ↗](https://new-delhi-traffic-forecasting.streamlit.app/) |
-| **[Volve Field Intelligence](#volve-field-intelligence)** | Industrial analytics, model reliability | [Explore dashboard ↗](https://volve-field-intelligence.streamlit.app/) |
-| **[RecallDesk](#recalldesk)** | Team engineering, evidence review, SQLite | [Team demo ↗](https://recall-desk.streamlit.app/) |
-| **[Lab2Care](#lab2care)** | Bounded agents, SQLite, simulated review workflows | [Team source ↗](https://github.com/husnainakram09/Lab2Care) |
+| **[NeuroPrompt-3D](#neuroprompt-3d)** | Independent 3D MRI research and interactive visualization | [Research preview ↗](https://neuroprompt-3d.vercel.app/) · [Source](https://github.com/ksuyamburaj07/NeuroPrompt-3D) |
+| **[New Delhi Traffic](#new-delhi-traffic-forecasting)** | Historical next-hour probe-activity forecasting | [Demo ↗](https://new-delhi-traffic-forecasting.streamlit.app/) · [Source](https://github.com/ksuyamburaj07/FYP_NewDelhi_Traffic) |
+| **[Volve Field Intelligence](#volve-field-intelligence)** | Historical industrial analytics and model reliability | [Dashboard ↗](https://volve-field-intelligence.streamlit.app/) · [Source](https://github.com/ksuyamburaj07/Volve_Oil_Production) |
+| **[RecallDesk](#recalldesk)** | Team pharmacy recall-review prototype with synthetic stock | [Team demo ↗](https://recall-desk.streamlit.app/) · [Source](https://github.com/husnainakram09/recall-desk) |
+| **[Lab2Care](#lab2care)** | Team AI follow-up prototype with fictional cases | [Team demo ↗](https://155-138-224-75.sslip.io/) · [Source](https://github.com/husnainakram09/Lab2Care) |
 
-*Streamlit demos may sleep after inactivity and require a wake-up.*
+*Streamlit demos may need a moment to wake after inactivity.*
 
 ### NeuroPrompt-3D
 
-**Uncertainty-aware 3D MRI segmentation · Hosted research prototype**
+**🧠 Independent implementation & evaluation · Research prototype**
 
-Built a multimodal MRI workflow combining a PyTorch 3D U-Net, MC Dropout, automatic prompts, and SAM-Med3D integration, with a FastAPI backend and React/TypeScript/Three.js interface.
+An uncertainty-aware **3D MRI segmentation** workflow built with PyTorch and FastAPI, explored through a React/TypeScript/Three.js interface.
 
-**129 test cases / 62 held-out subjects.** The frozen policy reduced mean HD95 but lowered mean Dice and IoU. Research use only; not clinically validated.
+The frozen evaluation covers **129 cases from 62 held-out subjects**. The final policy lowered mean HD95 while also lowering mean Dice and IoU. Research use only; not clinically validated.
 
-<a href="https://neuroprompt-3d.vercel.app/"><img src="assets/buttons/open-app.svg" alt="Open NeuroPrompt-3D research app" height="32"></a>
-<a href="https://github.com/ksuyamburaj07/NeuroPrompt-3D"><img src="assets/buttons/view-source.svg" alt="View NeuroPrompt-3D source" height="32"></a>
+[Open research preview ↗](https://neuroprompt-3d.vercel.app/) · [Explore the source](https://github.com/ksuyamburaj07/NeuroPrompt-3D)
 
 <details>
-<summary><strong>Inspect evaluation, reproducibility & attribution</strong></summary>
+<summary><strong>Open the research notes: results, methods & credit</strong></summary>
 
 | Mean metric | Baseline | Frozen policy |
 | :--- | ---: | ---: |
@@ -66,15 +82,16 @@ Independent implementation and evaluation; the initial concept and specification
 
 ### New Delhi Traffic Forecasting
 
-**BSc final-year project · Historical forecasting demo**
+**🚦 BSc final-year project · Historical ML application**
 
-Forecasts next-hour traffic **probe activity** across ten selected New Delhi roads. Random Forest achieved **6.16% WAPE** and **52.10% lower MAE than persistence** on a 960-observation chronological holdout. That same holdout informed model selection.
+Next-hour forecasting of **traffic probe activity across ten selected New Delhi roads**, with Random Forest, temporal features, baseline comparison, and a Streamlit interface.
 
-<a href="https://new-delhi-traffic-forecasting.streamlit.app/"><img src="assets/buttons/open-demo.svg" alt="Open New Delhi historical forecasting demo" height="32"></a>
-<a href="https://github.com/ksuyamburaj07/FYP_NewDelhi_Traffic"><img src="assets/buttons/view-source.svg" alt="View New Delhi Traffic source" height="32"></a>
+[Try the historical demo ↗](https://new-delhi-traffic-forecasting.streamlit.app/) · [Explore the source](https://github.com/ksuyamburaj07/FYP_NewDelhi_Traffic)
 
 <details>
-<summary><strong>Explore the forecasting workflow & evaluation</strong></summary>
+<summary><strong>Open the forecasting notes: evaluation & scope</strong></summary>
+
+Random Forest achieved **6.16% WAPE** and **52.10% lower MAE than persistence** on a **960-observation chronological holdout**. The same holdout informed model selection.
 
 - Temporal features and expanding-window evaluation.
 - Saved predictions, model comparisons, and a fitted scikit-learn pipeline.
@@ -88,15 +105,16 @@ The target measures aggregated probe activity, not exact vehicle counts or conge
 
 ### Volve Field Intelligence
 
-**Industrial data analysis · Baselines and model reliability**
+**🛢️ Industrial data science · Historical forecasting & reliability**
 
-Built historical production monitoring and next-month forecasting for **five producer wells**. On **80 temporal holdout forecasts**, persistence outperformed Ridge: **17.55% vs 33.10% WAPE**.
+Production monitoring and next-month forecasting for **five Volve producer wells**. The evaluation preserved a useful negative result: **persistence outperformed Ridge**.
 
-<a href="https://volve-field-intelligence.streamlit.app/"><img src="assets/buttons/open-demo.svg" alt="Open Volve historical analytics dashboard" height="32"></a>
-<a href="https://github.com/ksuyamburaj07/Volve_Oil_Production"><img src="assets/buttons/view-source.svg" alt="View Volve Field Intelligence source" height="32"></a>
+[Explore the dashboard ↗](https://volve-field-intelligence.streamlit.app/) · [Explore the source](https://github.com/ksuyamburaj07/Volve_Oil_Production)
 
 <details>
-<summary><strong>Explore model reliability & reproduction evidence</strong></summary>
+<summary><strong>Open the reliability notes: when the baseline wins</strong></summary>
+
+On **80 temporal holdout forecasts across five producer wells**, persistence achieved **17.55% WAPE**, compared with **33.10% for Ridge**.
 
 Preserved the negative result, including **12 negative Ridge predictions**, in the reliability analysis. The Streamlit/Plotly app presents frozen historical artifacts rather than retraining the model.
 
@@ -108,17 +126,16 @@ Includes a frozen model manifest, saved holdout predictions, and notebook-record
 
 ### RecallDesk
 
-**Team Redline Agents · AMD Developer Hackathon Act III**
+**💊 Team Redline Agents · AMD Developer Hackathon Act III**
 
-Collaborative educational pharmacy recall-review prototype using **synthetic inventory data** and simulated review roles.
+A collaborative pharmacy recall-review prototype using **synthetic inventory and simulated review roles**.
 
-My contributions focused on matching, SQLite persistence, audit history, revision-aware review, PDF evidence export, and regression tests.
+**My part:** conservative matching, versioned SQLite persistence, audit safeguards, revision-aware review, PDF evidence export, and regression tests.
 
-<a href="https://recall-desk.streamlit.app/"><img src="assets/buttons/team-demo.svg" alt="Open RecallDesk team demo" height="32"></a>
-<a href="https://github.com/husnainakram09/recall-desk"><img src="assets/buttons/team-source.svg" alt="View RecallDesk team repository" height="32"></a>
+[Try the team demo ↗](https://recall-desk.streamlit.app/) · [Explore the team source](https://github.com/husnainakram09/recall-desk)
 
 <details>
-<summary><strong>Explore my contributions to the team project</strong></summary>
+<summary><strong>Open my contribution notes</strong></summary>
 
 - Conservative evidence matching and regression tests.
 - Versioned SQLite persistence and audit safeguards.
@@ -133,31 +150,68 @@ This was a team delivery. The repository and application include collaborators' 
 
 ### Lab2Care
 
-**Team Redline Agents · Vultr: Agent Rush Hackathon · November 2026**
+**🤖 Team Redline Agents · Vultr: Agent Rush Hackathon**
 
-Built the initial **Python/FastAPI** application foundation for a fictional laboratory-results follow-up workflow. My work included report-to-order reconciliation, version-aware **SQLite** persistence and audit history, bounded agent tools using **Vultr Serverless Inference**, research data adapters, and regression tests.
+A collaborative laboratory-results follow-up prototype using **fictional cases and simulated clinical roles**. Bounded AI investigation prepares staff drafts; approval, fictional delivery, and acknowledgement remain separate steps.
 
-Also contributed deployment-script improvements and **Vultr VM integration/testing**. Later integration and presentation were collaborative team work.
+**My part:** the initial Python/FastAPI foundation, report reconciliation, version-aware SQLite workflows, Vultr inference tools, research adapters, regression tests, deployment-script improvements, and VM integration/testing. Later integration and presentation were team work.
 
-**Scope:** Educational team prototype using fictional cases and simulated staff/clinician roles. The agent investigates unresolved evidence and prepares staff drafts; approval, fictional delivery, and acknowledgement remain separate auditable steps.
-
-<a href="https://github.com/husnainakram09/Lab2Care"><img src="assets/buttons/team-source.svg" alt="View Lab2Care team repository" height="32"></a>
+<a href="https://155-138-224-75.sslip.io/"><img src="assets/buttons/team-demo.svg" alt="Try the Lab2Care fictional team demo" height="34"></a>
+<a href="https://github.com/husnainakram09/Lab2Care"><img src="assets/buttons/team-source.svg" alt="Explore the Lab2Care team repository" height="34"></a>
 
 <details>
-<summary><strong>Inspect my implementation & safeguards</strong></summary>
+<summary><strong>Open my implementation & deployment notes</strong></summary>
 
 - Deterministic reconciliation preserves missing, mismatched, and conflicting report evidence for review.
 - Transactional, version-aware SQLite transitions reject stale changes and protect audit history.
 - Case-scoped agent tools inspect evidence and prepare unexecuted clarification/escalation drafts; they cannot approve clinical decisions or automatically attach reports.
 - Simulated clinician approval, notification queuing, fake delivery, and receipt acknowledgement are distinct workflow stages.
-- Research adapters and regression tests cover reconciliation, persistence, agent boundaries, approvals, and follow-up states.
+- Research data adapters support aggregate audits; regression tests cover reconciliation, persistence, agent boundaries, approvals, and follow-up states.
 - Deployment contributions include reproducible startup, active-database health checks, startup-script fixes, and hands-on VM integration checks for the hackathon demo.
 
 [My initial implementation](https://github.com/husnainakram09/Lab2Care/commit/aaec480eda4cc16f53c30667384533ad7c5f2527) · [My startup contribution](https://github.com/husnainakram09/Lab2Care/commit/af0abf082f00622ca1dbae01780139c3924fd219) · [Current team tests](https://github.com/husnainakram09/Lab2Care/tree/0162cfcfc856935d5ceacec36d27e7acb2ed2467/tests)
 
 </details>
 
-## Engineering in the repositories
+<a name="toolkit"></a>
+<a name="engineering-in-the-repositories"></a>
+
+## What I build with
+
+Tools you'll find in the projects above, grouped by how I use them.
+
+**AI & data**
+
+<p>
+<img src="assets/tech/python.svg" alt="Python" height="32">
+<img src="assets/tech/pytorch.svg" alt="PyTorch" height="32">
+<img src="assets/tech/scikit-learn.svg" alt="scikit-learn" height="32">
+<img src="assets/tech/pandas.svg" alt="pandas" height="32">
+<img src="assets/tech/numpy.svg" alt="NumPy" height="32">
+</p>
+
+**Applications & agents**
+
+<p>
+<img src="assets/tech/fastapi.svg" alt="FastAPI" height="32">
+<img src="assets/tech/react.svg" alt="React" height="32">
+<img src="assets/tech/typescript.svg" alt="TypeScript" height="32">
+<img src="assets/tech/threejs.svg" alt="Three.js" height="32">
+<img src="assets/tech/streamlit.svg" alt="Streamlit" height="32">
+<img src="assets/tech/vultr.svg" alt="Vultr Serverless Inference" height="32">
+</p>
+
+**Engineering & testing**
+
+<p>
+<img src="assets/tech/sqlite.svg" alt="SQLite" height="32">
+<img src="assets/tech/testing.svg" alt="pytest and unittest" height="32">
+<img src="assets/tech/git.svg" alt="Git" height="32">
+<img src="assets/tech/linux.svg" alt="Linux" height="32">
+</p>
+
+<details>
+<summary><strong>See the implementation & validation evidence</strong></summary>
 
 | Area | Demonstrated work |
 | :--- | :--- |
@@ -166,9 +220,6 @@ Also contributed deployment-script improvements and **Vultr VM integration/testi
 | Applications | FastAPI, React, TypeScript, Three.js, Streamlit, Plotly |
 | Data & testing | pandas, NumPy, SQLite, pytest/unittest regressions, MRI input validation, audit-integrity and stale-revision safeguards |
 | Agentic workflows | Vultr Serverless Inference, allowlisted tool calling, version-aware state transitions, simulated approval gates |
-
-<details>
-<summary><strong>Inspect engineering validation</strong></summary>
 
 [NeuroPrompt MRI input-validation tests](https://github.com/ksuyamburaj07/NeuroPrompt-3D/blob/public-release/tests/m11/test_case_validation_api.py) cover research input checks. [RecallDesk regression tests](https://github.com/husnainakram09/recall-desk/tree/main/tests) cover matching, persistence, audit, review, and export behavior.
 
@@ -187,8 +238,14 @@ Official **Certificates of Completion — Participant**, linked to my team proje
 | **Vultr: Agent Rush Hackathon** · [Lab2Care](#lab2care) | 9 November 2026 | [View certificate](https://lablab.build/u/@ksuyambu_raj07/ai-hackathons/vultr-hackathon/certificate) |
 | **AMD Developer Hackathon: ACT III** · [RecallDesk](#recalldesk) | 5 November 2026 | [View certificate](https://lablab.build/u/@ksuyambu_raj07/ai-hackathons/amd-developer-hackathon-act-iii/certificate) |
 
-## Connect
+<a name="connect"></a>
 
-Interested in computer vision, applied ML, or research software?
+## Let's connect
 
-[Connect on LinkedIn](https://www.linkedin.com/in/suyambu-raj-kanagaraj/) · [Browse my repositories](https://github.com/ksuyamburaj07?tab=repositories) · [Back to projects ↑](#explore-my-work)
+Have a research question, an AI project, or feedback on one of my builds? Say hello.
+
+**[ksuyamburaj07@gmail.com](mailto:ksuyamburaj07@gmail.com)** · [LinkedIn](https://www.linkedin.com/in/suyambu-raj-kanagaraj/)
+
+This profile grows as I finish projects and document what I learn.
+
+[Back to the top ↑](#top)
